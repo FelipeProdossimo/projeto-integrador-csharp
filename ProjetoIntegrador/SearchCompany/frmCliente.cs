@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace SearchCompany
 {
@@ -37,9 +38,24 @@ namespace SearchCompany
             StreamWriter arquivo;
             string caminho = "C:\\sistema1\\clientes.txt";
             arquivo = File.AppendText(caminho);
-            arquivo.WriteLine(nome,email,telefone,senha);
+            arquivo.WriteLine(nome + " | " + email + " | " + telefone + " | " + senha);
             arquivo.Close();
-            MessageBox.Show("Paciente salvo!");
+
+            string bancoDeDados = "server=localhost;user id=root;password=;database=bd_projeto";
+    ;       MySqlConnection conexao = new MySqlConnection(bancoDeDados);
+            try
+            {
+                conexao.Open();
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = conexao;
+                cmd.CommandText = "insert into tb_clientes(nome, email, telefone, senha) values ('' , '', '', '')";
+                cmd.ExecuteNonQuery();
+                conexao.Close();
+            }
+            catch (MySqlException erro)
+            {
+                MessageBox.Show("Não foi possivel conectar com o banco de dados: " + erro.Message);
+            }
         }
     }
 }
