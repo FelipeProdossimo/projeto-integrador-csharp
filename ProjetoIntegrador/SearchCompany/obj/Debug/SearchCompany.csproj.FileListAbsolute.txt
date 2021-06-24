@@ -138,3 +138,5 @@ C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\bin\De
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.exe.config
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.csproj.CopyComplete
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmClientesListagem.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmPrincipal.resources

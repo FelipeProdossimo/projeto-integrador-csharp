@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCliente));
             this.lbnome = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -38,6 +39,8 @@
             this.txtTelefone = new System.Windows.Forms.TextBox();
             this.txtSenha = new System.Windows.Forms.TextBox();
             this.btnCadastrar = new System.Windows.Forms.Button();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // lbnome
@@ -95,6 +98,7 @@
             this.txtNome.Size = new System.Drawing.Size(275, 20);
             this.txtNome.TabIndex = 4;
             this.txtNome.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNome.Validating += new System.ComponentModel.CancelEventHandler(this.txtNome_Validar);
             // 
             // txtEmail
             // 
@@ -145,6 +149,10 @@
             this.btnCadastrar.UseVisualStyleBackColor = false;
             this.btnCadastrar.Click += new System.EventHandler(this.btnCadastrar_Click);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // frmCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -168,6 +176,7 @@
             this.Name = "frmCliente";
             this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Show;
             this.Text = "Cadastro de Clientes";
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -184,6 +193,7 @@
         private System.Windows.Forms.TextBox txtTelefone;
         private System.Windows.Forms.TextBox txtSenha;
         private System.Windows.Forms.Button btnCadastrar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }
 
