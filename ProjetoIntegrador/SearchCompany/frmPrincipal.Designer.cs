@@ -49,6 +49,7 @@
             this.listarAtendentesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.alterarVendedorToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,7 +94,8 @@
             this.vendedoresToolStripMenuItem.BackColor = System.Drawing.Color.RoyalBlue;
             this.vendedoresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listarTodosToolStripMenuItem,
-            this.novoVendedorToolStripMenuItem});
+            this.novoVendedorToolStripMenuItem,
+            this.alterarVendedorToolStripMenuItem});
             this.vendedoresToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.vendedoresToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.vendedoresToolStripMenuItem.Name = "vendedoresToolStripMenuItem";
@@ -104,15 +106,17 @@
             // 
             this.listarTodosToolStripMenuItem.BackColor = System.Drawing.Color.Salmon;
             this.listarTodosToolStripMenuItem.Name = "listarTodosToolStripMenuItem";
-            this.listarTodosToolStripMenuItem.Size = new System.Drawing.Size(223, 32);
+            this.listarTodosToolStripMenuItem.Size = new System.Drawing.Size(233, 32);
             this.listarTodosToolStripMenuItem.Text = "Listar Todos";
+            this.listarTodosToolStripMenuItem.Click += new System.EventHandler(this.listarTodosToolStripMenuItem_Click);
             // 
             // novoVendedorToolStripMenuItem
             // 
             this.novoVendedorToolStripMenuItem.BackColor = System.Drawing.Color.MistyRose;
             this.novoVendedorToolStripMenuItem.Name = "novoVendedorToolStripMenuItem";
-            this.novoVendedorToolStripMenuItem.Size = new System.Drawing.Size(223, 32);
+            this.novoVendedorToolStripMenuItem.Size = new System.Drawing.Size(233, 32);
             this.novoVendedorToolStripMenuItem.Text = "Novo Vendedor";
+            this.novoVendedorToolStripMenuItem.Click += new System.EventHandler(this.novoVendedorToolStripMenuItem_Click);
             // 
             // itensToolStripMenuItem
             // 
@@ -249,6 +253,12 @@
             this.linkLabel1.Text = "SISTEMA ONLINE";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // alterarVendedorToolStripMenuItem
+            // 
+            this.alterarVendedorToolStripMenuItem.Name = "alterarVendedorToolStripMenuItem";
+            this.alterarVendedorToolStripMenuItem.Size = new System.Drawing.Size(233, 32);
+            this.alterarVendedorToolStripMenuItem.Text = "Alterar Vendedor";
+            // 
             // frmPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -294,5 +304,6 @@
         private System.Windows.Forms.LinkLabel linkLabel1;
         private System.Windows.Forms.ToolStripMenuItem alterarClienteToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem alterarVendedorToolStripMenuItem;
     }
 }

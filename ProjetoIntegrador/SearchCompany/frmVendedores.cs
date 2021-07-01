@@ -109,6 +109,7 @@ namespace SearchCompany
             }
 
         }
+
         private void txtNome_Validar(object sender, CancelEventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNome.Text))
@@ -122,6 +123,54 @@ namespace SearchCompany
             {
                 e.Cancel = false;
                 errorProvider.SetError(txtNome, "");
+            }
+        }
+
+        private void txtEmail_Validar(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtEmail.Text))
+            {
+                e.Cancel = true;
+                txtEmail.Focus();
+
+                errorProvider.SetError(txtEmail, "O E-mail está em branco!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider.SetError(txtEmail, "");
+            }
+        }
+
+        private void txtTelefone_Validar(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtTelefone.Text))
+            {
+                e.Cancel = true;
+                txtTelefone.Focus();
+
+                errorProvider.SetError(txtTelefone, "O Telefone está em branco!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider.SetError(txtTelefone, "");
+            }
+        }
+
+        private void txtSenha_Validar(object sender, CancelEventArgs e)
+        {
+            if (string.IsNullOrWhiteSpace(txtSenha.Text))
+            {
+                e.Cancel = true;
+                txtSenha.Focus();
+
+                errorProvider.SetError(txtSenha, "A Senha está em branco!");
+            }
+            else
+            {
+                e.Cancel = false;
+                errorProvider.SetError(txtSenha, "");
             }
         }
     }
