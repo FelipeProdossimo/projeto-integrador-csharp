@@ -140,3 +140,6 @@ C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\De
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.csproj.CopyComplete
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmClientesListagem.resources
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmPrincipal.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmVendedoresListagem.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAlterarCliente.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmVendedores.resources

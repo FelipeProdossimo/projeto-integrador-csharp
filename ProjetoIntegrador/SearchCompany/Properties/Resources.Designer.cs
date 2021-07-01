@@ -63,6 +63,16 @@ namespace SearchCompany.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background {
+            get {
+                object obj = ResourceManager.GetObject("background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgroundCliente {
             get {
                 object obj = ResourceManager.GetObject("backgroundCliente", resourceCulture);
@@ -76,6 +86,46 @@ namespace SearchCompany.Properties {
         internal static System.Drawing.Bitmap backgroundCliente1 {
             get {
                 object obj = ResourceManager.GetObject("backgroundCliente1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconeFundo {
+            get {
+                object obj = ResourceManager.GetObject("iconeFundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_fundo {
+            get {
+                object obj = ResourceManager.GetObject("imagem-fundo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap imagem_fundo1 {
+            get {
+                object obj = ResourceManager.GetObject("imagem-fundo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_size {
+            get {
+                object obj = ResourceManager.GetObject("logo_size", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
