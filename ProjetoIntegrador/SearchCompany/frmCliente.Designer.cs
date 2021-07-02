@@ -157,7 +157,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SearchCompany.Properties.Resources.backgroundCliente1;
+            this.BackgroundImage = global::SearchCompany.Properties.Resources.background_orange_solid;
             this.ClientSize = new System.Drawing.Size(668, 307);
             this.Controls.Add(this.btnCadastrar);
             this.Controls.Add(this.txtSenha);

@@ -143,3 +143,7 @@ C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\De
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmVendedoresListagem.resources
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAlterarCliente.resources
 C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmVendedores.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAlterarVendedor.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAtendente.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAlterarAtendente.resources
+C:\xampp\htdocs\projeto-integrador-csharp\ProjetoIntegrador\SearchCompany\obj\Debug\SearchCompany.frmAtendenteListagem.resources

@@ -183,7 +183,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::SearchCompany.Properties.Resources.backgroundCliente1;
+            this.BackgroundImage = global::SearchCompany.Properties.Resources.background_orange_solid;
             this.ClientSize = new System.Drawing.Size(521, 297);
             this.Controls.Add(this.btnCarregar);
             this.Controls.Add(this.btnExcluir);

@@ -73,6 +73,36 @@ namespace SearchCompany.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap background_orange_solid {
+            get {
+                object obj = ResourceManager.GetObject("background-orange-solid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background_yellow {
+            get {
+                object obj = ResourceManager.GetObject("background-yellow", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap background_yellow1 {
+            get {
+                object obj = ResourceManager.GetObject("background-yellow1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap backgroundCliente {
             get {
                 object obj = ResourceManager.GetObject("backgroundCliente", resourceCulture);
@@ -86,6 +116,16 @@ namespace SearchCompany.Properties {
         internal static System.Drawing.Bitmap backgroundCliente1 {
             get {
                 object obj = ResourceManager.GetObject("backgroundCliente1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap center_color_background {
+            get {
+                object obj = ResourceManager.GetObject("center-color-background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

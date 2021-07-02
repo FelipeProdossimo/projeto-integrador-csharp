@@ -68,5 +68,33 @@ namespace SearchCompany
             frmVendedoresListagem formulario = new frmVendedoresListagem();
             formulario.ShowDialog();
         }
+
+        private void alterarVendedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // ABRIR FORMULÁRIO
+            frmAlterarVendedor formulario = new frmAlterarVendedor();
+            formulario.ShowDialog();
+        }
+
+        private void novoAtendenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // ABRIR FORMULÁRIO
+            frmAtendente formulario = new frmAtendente();
+            formulario.ShowDialog();
+        }
+
+        private void alterarAtendenteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            // ABRIR FORMULÁRIO
+            frmAlterarAtendente formulario = new frmAlterarAtendente();
+            formulario.ShowDialog();
+        }
+
+        private void listarTodosToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            // ABRIR FORMULÁRIO
+            frmAtendenteListagem formulario = new frmAtendenteListagem();
+            formulario.ShowDialog();
+        }
     }
 }
